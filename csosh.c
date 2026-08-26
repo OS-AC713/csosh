@@ -2,10 +2,10 @@
 int scosh_st() {
     while (1) {
         __builtin_printf("[username@hostname]<>& ");
-        char * input[100];
+        char input[100];
 
 
-        __builtin_scanf("%99c", &input); 
+        __builtin_scanf("%99s", &input); 
     }
     return 0;
 }
@@ -17,4 +17,4 @@ int main() {
     
     return 0;
 }
-/* заберите у меня си :p*/
+/* заберите у меня си, я бездарь :p*/
