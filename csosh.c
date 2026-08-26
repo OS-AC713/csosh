@@ -1,3 +1,7 @@
+/* The file was created by OS-AC713 and is distributed under the GNU GPLv3.0 license. The project will be located here: https://github.com/OS-AC713/csash */
+/* WE DO NOT PROVIDE ANY WARRANTY, more details: https://github.com/OS-AC713/csosh/blob/main/LICENSE or show w */
+
+
 #include <string.h> 
 #include <stdlib.h>
 
@@ -12,7 +16,7 @@ int scosh_st(char *username, char *hostname) {
         char input[100];
 
 
-        __builtin_scanf("%99s", input); 
+        __builtin_scanf(" %99[^\n]", input); 
 
     if (strcmp(input, "sls") == 0 ) {
         __builtin_printf("boot5.asm, st2.asm\n");
@@ -44,8 +48,15 @@ int scosh_st(char *username, char *hostname) {
         break;
     }
     
+    else if (strcmp(input, "show w") == 0) {
+        __builtin_printf("We do not give ANY GUARANTEE that the code is safe,\n we DO NOT GIVE ANY GUARANTEE that nothing will be damaged\n");
+    }
+    else if (strcmp(input, "show c") == 0) {
+        __builtin_printf("You CAN: modify the code, incorporate it into your projects, download it, distribute it, or recreate it for your own needs.\n YOU CANNOT: remove the license from the main branch, remove attribution from file headers, close the source code (violating the GNU General Public License v3.0), or remove attribution from the project. \n");
+    }
+
     else {
-        __builtin_printf("csosh: command not found.\n");
+        __builtin_printf("scosh: command not found.\n");
     }
     }
     return 0;
@@ -73,4 +84,3 @@ int main() {
 
     return 0;
 }
-/* заберите у меня си, я бездарь :p*/
