@@ -6,16 +6,23 @@ int scosh_st() {
         char input[100];
 
 
-        __builtin_scanf("%99s", &input); 
+        __builtin_scanf("%99s", input); 
 
-if (strcmp(input, "sls") == 0 ) {
-    __builtin_printf("boot5.asm, st2.asm\n");
-    return 0;
+    if (strcmp(input, "sls") == 0 ) {
+        __builtin_printf("boot5.asm, st2.asm\n");
+    }
+    if (strcmp(input, "uls") == 0 ) {
+        __builtin_printf("csosh: uls: not found files.\n");
+    }
+    if (strcmp(input, "cls") == 0) {
+        __builtin_printf("Drivers, Bootos, FATsoon\n");
     }
 
     }
     return 0;
 }
+
+
 
 
 
@@ -26,3 +33,4 @@ int main() {
     
     return 0;
 }
+/* заберите у меня си, я бездарь :p*/
