@@ -45,7 +45,7 @@ int scosh_st(char *username, char *hostname) {
     }
     
     else {
-        __builtin_printf("scosh: command not found.\n");
+        __builtin_printf("csosh: command not found.\n");
     }
     }
     return 0;
