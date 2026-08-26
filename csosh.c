@@ -1,4 +1,4 @@
-/* The file was created by OS-AC713 and is distributed under the GNU GPLv3.0 license. The project will be located here: https://github.com/OS-AC713/csash */
+/* The file was created by OS-AC713 and is distributed under the GNU GPLv3.0 license. The project will be located here: https://github.com/OS-AC713/csosh */
 /* WE DO NOT PROVIDE ANY WARRANTY, more details: https://github.com/OS-AC713/csosh/blob/main/LICENSE or show w */
 
 
@@ -56,7 +56,7 @@ int scosh_st(char *username, char *hostname) {
     }
 
     else {
-        __builtin_printf("scosh: command not found.\n");
+        __builtin_printf("csosh: command not found.\n");
     }
     }
     return 0;
