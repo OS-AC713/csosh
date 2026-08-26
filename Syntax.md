@@ -31,3 +31,10 @@ Four-digit number:
 4 = how these privileges interact with the author and the system scheduler
 
 I don't think it's that complicated :p
+
+
+# Family language terminology:
+
+I'll go into more detail here.
+The family language tells the processor that a single family command has so many commands, each command performing its own role and its own flags.
+Okay, that's it. What else can I tell you?
