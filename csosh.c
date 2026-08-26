@@ -1,4 +1,5 @@
 #include <string.h> 
+#include <stdlib.h>
 
 int scosh_st() {
     while (1) {
@@ -17,7 +18,12 @@ int scosh_st() {
     if (strcmp(input, "cls") == 0) {
         __builtin_printf("Drivers, Bootos, FATsoon\n");
     }
-
+    if (strcmp(input, "linof") == 0) {
+        system("python3 linoflinks.py");    /*Guys, these are temporary workarounds. Later, I'll replace all the libraries and this command itself so that it works within the system. :p*/
+    }    
+    else {
+        __builtin_printf("csosh: command not found.")
+    }
     }
     return 0;
 }
