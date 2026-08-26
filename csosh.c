@@ -55,6 +55,10 @@ int scosh_st(char *username, char *hostname) {
         __builtin_printf("You CAN: modify the code, incorporate it into your projects, download it, distribute it, or recreate it for your own needs.\n YOU CANNOT: remove the license from the main branch, remove attribution from file headers, close the source code (violating the GNU General Public License v3.0), or remove attribution from the project. \n");
     }
 
+    else if (strcmp(input, "mango 2") == 0) {
+        __builtin_printf("Okay, you found it, what should you do with it? LMAO\n");
+    }
+    
     else {
         __builtin_printf("csosh: command not found.\n");
     }
@@ -78,7 +82,7 @@ int main() {
     __builtin_printf("Great! Enter your hostname: ");
     __builtin_scanf("%49s", host);
     
-    __builtin_printf("Load scosh . . .\n");
+    __builtin_printf("Load csosh . . .\n");
 
     scosh_st(user, host);
 
