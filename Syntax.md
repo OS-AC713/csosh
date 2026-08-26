@@ -46,3 +46,7 @@ If you're an auos, your prompt will end with =
 
 
 # If you read this far, congratulations! You saw the cloud above the iceberg. There are still many commands here. And some of them are better left unseen, as the Arabs won't read them in droves. I checked.
+
+# If you want to check, here's the easiest of the simplest commands in the iceberg: 
+**tsch -fe --USB-INP --wfsf &$ --act def.sp**
+Good luck.
