@@ -1,4 +1,3 @@
-
 int scosh_st() {
     while (1) {
         __builtin_printf("[username@hostname]<>& ");
@@ -6,8 +5,14 @@ int scosh_st() {
 
 
         __builtin_scanf("%99s", &input); 
+        
     }
     return 0;
+}
+
+int stcmp() {
+    main();
+    /* здесь пока ничего нет */
 }
 
 int main() {
