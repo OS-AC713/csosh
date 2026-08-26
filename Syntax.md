@@ -16,3 +16,18 @@
 # Basic serial numbers in the Core713 system:
 
 # The first digit denotes the permissions, but if it's a 4-digit number, it denotes the author. The second digit denotes the creator, but if it's a 4-digit number, it denotes the primary privilege. The third digit denotes who is responsible for it, but if it's a 4-digit number, it denotes the privilege. The last 4th digit determines how they interact with the first digit. A basic example: 1000, 1 = AUOS, 000 = all privileges. The last digit means that only auos has the right to modify the file's operation.
+
+In my system, 0 = the lowest process; the higher the number, the more privileged it is.
+
+* ## Here's a simple formula for working with it: *
+Three-digit number:
+1 = privilege, 2 = author (you'll most likely choose 1 – that's you, in the user plan), 3 = responsible.
+
+Four-digit number:
+
+1 = author
+2 = primary privilege
+3 = privilege
+4 = how these privileges interact with the author and the system scheduler
+
+I don't think it's that complicated :p
