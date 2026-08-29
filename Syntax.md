@@ -45,6 +45,17 @@ If you're a user, your prompt will end with a <>&
 If you're an auos, your prompt will end with =
 
 
+# WARNING: Regarding the code: I haven't really thought through the architecture in my head yet, so don't expect any super mega bash-level magic from the code.
+
+# Why I created a family of commands:
+First, I liked the idea.
+
+Second, it's easier for me to manage the OS and shell this way.
+
+Third, I'll do whatever I want with the commands :p
+
+And fourth, it's just cool :p
+
 # If you read this far, congratulations! You saw the cloud above the iceberg. There are still many commands here. And some of them are better left unseen, as the Arabs won't read them in droves. I checked.
 
 # If you want to check, here's the easiest of the simplest commands in the iceberg: 
