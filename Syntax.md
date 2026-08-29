@@ -56,6 +56,10 @@ Third, I'll do whatever I want with the commands :p
 
 And fourth, it's just cool :p
 
+# How do you work with csosh syntax:
+
+Just pray it works.
+
 # If you read this far, congratulations! You saw the cloud above the iceberg. There are still many commands here. And some of them are better left unseen, as the Arabs won't read them in droves. I checked.
 
 # If you want to check, here's the easiest of the simplest commands in the iceberg: 
